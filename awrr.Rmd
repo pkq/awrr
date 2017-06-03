@@ -1,0 +1,50 @@
+---
+title: "Academic Writing using R and RStudio"
+subtitle: "Cascadia R Conference"
+author: "Patrick Kennedy"
+date: "2017-06-03"
+output:
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Motivation
+
+Focus on content, not on formatting, managing citations, and other artifacts of the writing process
+
+> - *Readability*: [R Markdown](http://rmarkdown.rstudio.com/lesson-1.html) needs only minimal inline formatting
+> - *Reproducibility*: [Inline code](http://rmarkdown.rstudio.com/lesson-4.html) eliminates copy and paste errors
+> - *Collaboration*: [Version control](http://happygitwithr.com) eliminates the need for "I have the master copy" emails. 
+
+## Steps
+
+1. Learn [R Markdown](http://rmarkdown.rstudio.com/lesson-1.html) (at least the basics)
+1. Use a reference manager (e.g., [Zotero](https://www.zotero.org))
+1. Let [R](https://www.r-project.org) and [RStudio](https://www.rstudio.com) do the hard work for you
+1. Collaborate via version control (e.g., [git](https://git-scm.com))
+
+## Tools
+
+- [RStudio](https://www.rstudio.com): built-in spell checking via [hunspell](https://github.com/hunspell/hunspell)
+- [gramr](https://github.com/ropenscilabs/gramr): grammar checking functions for Rmd documents
+- [wordcountaddin](https://github.com/benmarwick/wordcountaddin): word count and readability statistics
+
+Citations:
+
+- [citr](https://github.com/crsh/citr): create and insert formatted Markdown citations 
+- [fulltext](https://github.com/ropensci/fulltext): search and get full text for open access journals
+
+Templates:
+
+- [papaja](https://github.com/crsh/papaja): helper functions to produce complete APA manscripts
+- [rticles](https://github.com/rstudio/rticles): journal article templates for R Markdown
+- [rmdTemplates](https://github.com/Pakillo/rmdTemplates): other scientific writing templates
+
+## Challenges
+
+- Learning curve
+- Inertia
+- Buy in
